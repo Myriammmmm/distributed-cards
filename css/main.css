@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-family: georgia;
+  line-height: 1.5;
+  color: 000;
+  background-color: #f5f2f0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "Denk One";
+  color: #623b0c
+}
+
+main ol {
+  list-style: none;
+}
