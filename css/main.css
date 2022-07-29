@@ -1,20 +1,23 @@
 html {
   box-sizing: border-box;
-  font-family: georgia;
+  font-family: Georgia, serif;
   line-height: 1.5;
-  color: 000;
   background-color: #f5f2f0;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2 {
   font-family: "Denk One";
   color: #623b0c;
-  margin: .5rem 0;
+  margin: 0;
 }
 
 main ol {
@@ -23,6 +26,7 @@ main ol {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   padding: 0;
+  margin: 1.5rem 0;
 }
 
 ol li {
@@ -33,4 +37,26 @@ ol li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+li h2 {
+  margin: .5rem 0;
+}
+
+img {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+li p {
+  margin: .5rem 0;
+}
+
+li a {
+  margin: .5rem 0;
+  padding: .5rem;
+  text-decoration: none;
+  color: #ede3db;
+  background-color: #623b0c;
+  border-radius: 8px;
 }
