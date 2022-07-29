@@ -30,7 +30,7 @@ main ol {
 }
 
 ol li {
-  padding: .5em .75em .6em 1rem;
+  padding: .5em 1em .6em 1rem;
   background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
@@ -45,17 +45,18 @@ li h2 {
 
 img {
   width: 100%;
-  margin: .5rem 0;
+  margin: 1rem 0;
 }
 
 li p {
-  margin: .5rem 0;
+  margin: .4rem 0 1rem;
 }
 
 li a {
   margin: .5rem 0;
-  padding: .5rem;
+  padding: .5rem .6rem;
   text-decoration: none;
+  font-weight: lighter;
   color: #ede3db;
   background-color: #623b0c;
   border-radius: 8px;
